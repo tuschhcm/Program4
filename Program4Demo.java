@@ -71,6 +71,8 @@ public class Program4Demo {
          }
       } while(inputFile.hasNext());
       
+      inputFile.close();
+      
       //print every employees toString
       for(Employee employee : workers) {
          System.out.println(employee.toString());
