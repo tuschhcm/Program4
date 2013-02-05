@@ -51,6 +51,6 @@ private boolean isWorking; // true if currently working; false otherwise
    public String toString() {
       return employeeName + "\t" + employeeId + "\t" + isWorking;
    }
-	
-	public abstract double getPay();
+   
+   public abstract double getPay();
 }
